@@ -1,0 +1,27 @@
+nav .badge{
+    position: relative;
+    top:20px;
+    right:20px;
+
+}
+.blue{
+    clip-path: polygon(29% 0, 71% 0, 92% 34%, 84% 80%, 57% 150%, 29% 150%, 0 100%, 0 0);
+}
+@media only screen and (max-width: 600px) {
+    #img1 {
+        height: 200px;
+    }
+    .blue{
+        clip-path: none;
+    }
+}
+.row >col{
+        padding: 10px;
+        background: #ddd;
+        border: 1px solid #fff;
+        line-height: 60px;
+
+    }
+.row{
+    margin: 2px auto;
+}
